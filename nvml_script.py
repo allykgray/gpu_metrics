@@ -1,4 +1,7 @@
 #!/usr/bin/env  python
+#this script uses nvidia-ml-py to push strings of data to graphite. 
+#you need to install nvidia-ml-py to run this script as well as grafana, graphite, and carbon if you want ot post the information 
+#https://pypi.python.org/pypi/nvidia-ml-py/
  
 import socket 
 import time
