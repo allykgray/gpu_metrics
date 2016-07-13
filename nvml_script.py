@@ -7,18 +7,11 @@ import socket
 import time
 from pynvml import *
 
-#nvmlInit()
-
 DELAY= 10
 
 CARBON_SERVER='127.0.0.1'
 CARBON_PORT=2003
 timestamp=int(time.time())
-
-#DriverVersion=nvmlSystemGetDriverVersion()
-#deviceCount=nvmlDeviceGetCount()
-
-#gpu_number=1
 
 def get_gpumeminfo(gpu_handle):
 	gpumeminfo = nvmlDeviceGetMemoryInfo(gpu_handle)
