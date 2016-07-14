@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+'''This script requires NVIDIA Driver and pynvml (https://pypi.python.org/pypi/nvidia-ml-py/)'''
 
 import socket
 import time
