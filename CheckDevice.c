@@ -35,7 +35,6 @@ int main()
 	//Buffer size guaranteed to be large enough for nvmlDeviceGetName
         char name[NVML_DEVICE_NAME_BUFFER_SIZE];
         nvmlPciInfo_t pci;
-        nvmlComputeMode_t compute_mode;
         nvmlMemory_t memory;
 	nvmlPSUInfo_t psu;
 	nvmlTemperatureSensors_t sensorType;
